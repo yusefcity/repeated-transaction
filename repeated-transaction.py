@@ -38,3 +38,19 @@ result = signed.raw_transaction.hex()
 print(ctime())
 
 print(wallet.address)
+
+for text in (
+    design_text,
+    exchange_text,
+    treasury_text,
+):
+    print(text)
+
+print(node.is_connected())
+
+print(payload["nonce"])
+
+print(len(result))
+
+print("Signed")
+```
